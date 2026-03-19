@@ -3,9 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Libro;
+use App\Models\User;
 
 class ArticuloController extends Controller
 {
+    public function buscar(Request $request)
+    {
         $texto = $request->input('buscar');
 
         if (!$texto) {
@@ -21,3 +25,4 @@ class ArticuloController extends Controller
 
         return view('buscar.resultados', compact('libros', 'usuarios', 'texto'));
     }
+}

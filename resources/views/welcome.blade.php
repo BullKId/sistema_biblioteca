@@ -25,12 +25,7 @@
         <h1 class="texto-cargando">Cargando<span class="dot1">.</span><span class="dot2">.</span><span class="dot3">.</span></h1>
     </div>
 
-
-    <form style="display:flex; gap:10px; justify-content:center; margin:20px;">
-    <input type="text" placeholder="Buscar libros o usuarios..." style="padding:10px; width:300px;">
-    <button type="submit" style="padding:10px;">🔍</button>
-</form>
-    <!-- Agregar cualquier script JS que sea necesario -->
+<!-- Agregar cualquier script JS que sea necesario -->
 
 <form style="display:flex; gap:10px; justify-content:center; margin:20px;">
     <input type="text" placeholder="Buscar libros o usuarios..." style="padding:10px; width:300px;">

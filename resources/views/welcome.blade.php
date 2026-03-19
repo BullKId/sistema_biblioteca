@@ -31,19 +31,15 @@
     <button type="submit" style="padding:10px;">🔍</button>
 </form>
     <!-- Agregar cualquier script JS que sea necesario -->
-    
-    <form>
-    <input type="text" placeholder="Buscar libros, usuarios..." />
-    <button type="submit">Buscar</button>
-</form>
-<form style="display:flex; gap:10px;">
-    <input type="text" placeholder="Buscar..." style="padding:8px; width:250px;">
-    <button type="submit" style="padding:8px;">🔍</button>
+
+<form style="display:flex; gap:10px; justify-content:center; margin:20px;">
+    <input type="text" placeholder="Buscar libros o usuarios..." style="padding:10px; width:300px;">
+    <button type="submit" style="padding:10px;">🔍</button>
 </form>
     <!-- Agregar cualquier script JS que sea necesario -->
 
-  <div class="contenido">
-        <form action="#" method="get" class="formulario-resena">
+<div class="contenido">
+<form action="#" method="get" class="formulario-resena">
 
 <!-- trabajo mich  -->
 <button class="Boton_editar" type="button">editar</button>
